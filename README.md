@@ -26,11 +26,11 @@ To have an estimate of the house price whether for renting or buying.
 #### About the model:
 
 The buyer (a person who wants to know the estimate of the price of the house in Bangalore) just needs to provide the following given inputs:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;location	<br>
-&nbsp;&nbsp;&nbsp;&nbsp;size_BHK	<br>
-&nbsp;&nbsp;&nbsp;&nbsp;total_sqft	<br>
-&nbsp;&nbsp;&nbsp;&nbsp;bath	<br>
-&nbsp;&nbsp;&nbsp;&nbsp;balcony	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. location	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. size_BHK	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. total_sqft	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. bath	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. balcony	<br>
 and the model can predict with 93% accuracy the price of houses based on the buyer input. This also provides them with a pre-existing idea of the price range they can expect in order to get there dream house in their dream location. 
 
 #### Approach:
@@ -60,13 +60,13 @@ and the model can predict with 93% accuracy the price of houses based on the buy
 
 &nbsp;&nbsp;&nbsp;&nbsp;5. Model creation and cross validation:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Multiple models were trained namely<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Linear Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Ridge Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Lasso Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Elastic Net<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Decision Tree<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Random Forest<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    *Gradient Boosting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. Linear Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    2. Ridge Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    3. Lasso Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    4. Elastic Net<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    5. Decision Tree<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    6. Random Forest<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    7. Gradient Boosting<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Upon cross validating the GradientBoostingRegressor provided the highest accuracy score of 93% turning out to be the best model among the ones used.<br>
 
 #### Final Verdict:
