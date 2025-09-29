@@ -45,18 +45,18 @@ and the model can predict with 93% accuracy the price of houses based on the buy
 
 4. Feature Engineering:<br>
    Feature Engineering is the most important step in model making as it accelerates or deaccelerates the accuracy of the model. In this step new columns are created while existing columns can be removed. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;   
-&nbsp;&nbsp;&nbsp;i. Feature Removal:<br>
-In this step, addition features were created and unnecessay features were removed. A correlation metrics revealed that columns like availabilty and society are     not imparting much to the creation of the model. A person might know the location they want to get the house in but not really the society, they would just want    to explore all of the houses in the &nbsp;&nbsp;&nbsp;&nbsp;area/location. Similarly, questions like avalibilty are not really something potential buyer/renters tend to ask. Therefore,    it was a wise decision to remove these columns from the &nbsp;&nbsp;&nbsp;&nbsp;dataset.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;   
-&nbsp;&nbsp;&nbsp;&nbsp;ii. Feature Construction:<br>
-Additional features were created like total price (price * total_sq_feet_area).<br>
+  
+   i. Feature Removal:<br>
+      In this step, addition features were created and unnecessay features were removed. A correlation metrics revealed that columns like availabilty and society are not imparting much to the creation of the model. A person might know the location they want to get the house in but not really the society, they would just want to explore all of the houses in the &nbsp;&nbsp;&nbsp;&nbsp;area/location. Similarly, questions like avalibilty are not really something potential buyer/renters tend to ask. Therefore, it was a wise decision to remove these columns from the dataset.<br>
+  
+   ii. Feature Construction:<br>
+       Additional features were created like total price (price * total_sq_feet_area).<br>
 
-&nbsp;&nbsp;&nbsp;iii. Encoding:<br>
-&nbsp;&nbsp;&nbsp;As machine learning models only take numerical values but columns like location are categorial. Hence Label Encodin was performed to change them into numerical column.<br>
+   iii. Encoding:<br>
+        As machine learning models only take numerical values but columns like location are categorial. Hence Label Encodin was performed to change them into numerical column.<br>
 
-&nbsp;&nbsp;&nbsp;iv. Scaling:<br>
-&nbsp;&nbsp;&nbsp;Scaling was performed to benefit standarization. This helps bring all the values in the range of 0-1 while keeping the distribution and distance intact.<br>
+    iv. Scaling:<br>
+         Scaling was performed to benefit standarization. This helps bring all the values in the range of 0-1 while keeping the distribution and distance intact.<br>
 
 &nbsp;&nbsp;&nbsp;5. Model creation and cross validation:<br>
 &nbsp;&nbsp;&nbsp;Multiple models were trained namely<br>
