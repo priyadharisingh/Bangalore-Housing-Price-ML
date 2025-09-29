@@ -45,6 +45,7 @@ and the model can predict with 93% accuracy the price of houses based on the buy
 
 4. Feature Engineering:
    Feature Engineering is the most important step in model making as it accelerates or deaccelerates the accuracy of the model. In this step new columns are           created while existing columns can be removed. <br>
+   
 &nbsp;&nbsp;&nbsp;&nbsp;i. Feature Removal:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;In this step, addition features were created and unnecessay features were removed. A correlation metrics revealed that columns like availabilty and society are     not imparting much to the creation of the model. A person might know the location they want to get the house in but not really the society, they would just want    to explore all of the houses in the area/location. Similarly, questions like avalibilty are not really something potential buyer/renters tend to ask. Therefore,    it was a wise decision to remove these columns from the dataset.<br>
    
