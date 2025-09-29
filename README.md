@@ -60,13 +60,13 @@ and the model can predict with 93% accuracy the price of houses based on the buy
 
 &nbsp;&nbsp;&nbsp;&nbsp;5. Model creation and cross validation:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Multiple models were trained namely<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Linear Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Ridge Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Lasso Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Elastic Net<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Decision Tree<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Random Forest<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    Gradient Boosting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Linear Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Ridge Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Lasso Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Elastic Net<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Decision Tree<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Random Forest<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    *Gradient Boosting<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Upon cross validating the GradientBoostingRegressor provided the highest accuracy score of 93% turning out to be the best model among the ones used.<br>
 
 #### Final Verdict:
