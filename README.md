@@ -26,25 +26,25 @@ To have an estimate of the house price whether for renting or buying.
 #### About the model:
 
 The buyer (a person who wants to know the estimate of the price of the house in Bangalore) just needs to provide the following given inputs:<br>
-location	<br>
-size_BHK	<br>
-total_sqft	<br>
-bath	<br>
-balcony	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;location	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;size_BHK	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total_sqft	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;bath	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;balcony	<br>
 and the model can predict with 93% accuracy the price of houses based on the buyer input. This also provides them with a pre-existing idea of the price range they can expect in order to get there dream house in their dream location. 
 
 #### Approach:
 
 1. The datset is downloaded from kaggle in the csv format and imported it in the jupter file along with all the other necessary libraries.
 
-2. Tackling null values:
+2. Tackling null values: <br>
    The next obivious was to look for null values. Since all of the columns in the dataset consisted of columns with less than 5% null values, the most obvious and useful step was to remove those null values.
 
-3. An overview of the outliers:
+3. An overview of the outliers:<br>
    There was a lot of outliers in the dataset. This is very obvious owing to the fact that the dataset consisted of both renting and buying prices of the property. The price of renting is a lot less then the         price of buying a property. Additionally, a number of factors namely location, BHK, balcony, neighbourhood affect the prices of the property. Thus, we need to work with outliers. Outliers cannot be eliminated     during the creation of this model.
 
-4. Feature Engineering:
-   Feature Engineering is the most important step in model making as it accelerates or deaccelerates the accuracy of the model. In this step new columns are           created while existing columns can be removed. <br>
+4. Feature Engineering:<br>
+   Feature Engineering is the most important step in model making as it accelerates or deaccelerates the accuracy of the model. In this step new columns are created while existing columns can be removed. <br>
    
 &nbsp;&nbsp;&nbsp;&nbsp;i. Feature Removal:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;In this step, addition features were created and unnecessay features were removed. A correlation metrics revealed that columns like availabilty and society are     not imparting much to the creation of the model. A person might know the location they want to get the house in but not really the society, they would just want    to explore all of the houses in the area/location. Similarly, questions like avalibilty are not really something potential buyer/renters tend to ask. Therefore,    it was a wise decision to remove these columns from the dataset.<br>
@@ -60,13 +60,13 @@ and the model can predict with 93% accuracy the price of houses based on the buy
 
 &nbsp;&nbsp;&nbsp;&nbsp;5. Model creation and cross validation:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Multiple models were trained namely<br>
-    Linear Regression<br>
-    Ridge Regression<br>
-    Lasso Regression<br>
-    Elastic Net<br>
-    Decision Tree<br>
-    Random Forest<br>
-    Gradient Boosting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Linear Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Ridge Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Lasso Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Elastic Net<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Decision Tree<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Random Forest<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Gradient Boosting<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Upon cross validating the GradientBoostingRegressor provided the highest accuracy score of 93% turning out to be the best model among the ones used.<br>
 
 #### Final Verdict:
