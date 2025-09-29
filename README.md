@@ -58,15 +58,15 @@ and the model can predict with 93% accuracy the price of houses based on the buy
     iv. Scaling:<br>
          Scaling was performed to benefit standarization. This helps bring all the values in the range of 0-1 while keeping the distribution and distance intact.<br>
 
-&nbsp;&nbsp;&nbsp;5. Model creation and cross validation:<br>
-&nbsp;&nbsp;&nbsp;Multiple models were trained namely<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    1. Linear Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    2. Ridge Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    3. Lasso Regression<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    4. Elastic Net<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    5. Decision Tree<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    6. Random Forest<br>
-&nbsp;&nbsp;&nbsp;&nbsp;    7. Gradient Boosting<br>
+5. Model creation and cross validation:<br>
+   Multiple models were trained namely<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    i. Linear Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    ii. Ridge Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    iii. Lasso Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    iv. Elastic Net<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    v. Decision Tree<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    vi. Random Forest<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    vii. Gradient Boosting<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Upon cross validating the GradientBoostingRegressor provided the highest accuracy score of 93% turning out to be the best model among the ones used.<br>
 
 # Final Verdict:
